@@ -4,7 +4,6 @@ import org.apache.spark.sql.{Dataset, SparkSession}
 import org.scalatest.FlatSpec
 import poly.storage.{ChatLog, Storage}
 import poly.test.SharedSparkSession.spark
-import thw.vancann.storage.ChatLog
 
 class WordCountTestIT extends FlatSpec {
 
